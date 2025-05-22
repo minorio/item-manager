@@ -100,7 +100,7 @@ const ProductForm: React.FC<Props> = ({ onClose, editingProduct }) => {
 
             <button
                 type="submit"
-                className="w-full bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 cursor-pointer"
+                className="w-full bg-blue-600 text-white px-4 py-2 rounded-lg shadow hover:bg-blue-700 transition cursor-pointer"
             >
                 {editingProduct ? 'Сохранить' : 'Добавить'}
             </button>
